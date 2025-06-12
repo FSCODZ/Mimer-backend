@@ -17,7 +17,7 @@
 
 Det här projektet är ett REST API för ett litet bibliotek, byggt som en del av en kompetensbedömning för junior backend-utvecklare på Mimer.
 
-API:t hanterar böcker och lån med minnesbaserad lagring – ingen databas krävs. Syftet är att visa tydlig struktur, RESTful design och bra felhantering.
+API:t hanterar böcker och lån med minnesbaserad lagring. Syftet är att visa tydlig struktur, RESTful design och bra felhantering.
 
 ---
 
@@ -69,4 +69,4 @@ npm install
 ---
 
 
-<a name="thanks">🙏 Tack!</a>
+##  <a name="thanks">Tack</a>
