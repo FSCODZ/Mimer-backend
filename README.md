@@ -9,8 +9,7 @@
 3. 🔋 [Funktioner](#features)  
 4. 🤸 [Snabbstart](#quick-start)  
 5. 🕸️ [API Endpoints](#api-endpoints)  
-6. 🐳 [Docker](#docker)  
-7. 🙏 [Tack!](#thanks)
+6. 🙏 [Tack!](#thanks)
 
 ---
 
@@ -69,6 +68,5 @@ npm install
 
 ---
 
-## <a name="docker">🐳 Docker</a>
 
 <a name="thanks">🙏 Tack!</a>
