@@ -1,16 +1,15 @@
 
 const loans = []; 
 
+const createError = require('http-errors');
+
 function createLoan(userId, bookId) {
-  if (loans.some(loan => loan.bookId === bookId && !loan.returned)) {
-    throw new Error('Book is already rented');
+  const alreadyLoaned = loans.some(loan => loan.bookId === bookId);
+  if (alreadyLoaned) {
+    throw createError.Conflict('Book is already rented');
   }
-  const loan = {
-    userId: parseInt(userId, 10),
-    bookId: parseInt(bookId, 10),
-    date: new Date(),
-    returned: false
-  };
+
+  const loan = { userId, bookId, date: new Date() };
   loans.push(loan);
   return loan;
 }
